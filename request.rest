@@ -1,0 +1,55 @@
+
+GET http://localhost/books
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicGFzc3dvcmQiOiIkMmIkMTAkTElUSk9HQlJyeG9FbUhaTURFdEd6ZTFUNlJ4aHJkZkUzN0lYcFBHNGRFOW5vNE4vaktrR0MiLCJpYXQiOjE2OTk0MzY0MjN9.q1d9LVXuGYsOPb5v765TyeW6LRKYU3weKbzTiAS3R24
+
+
+###
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST http://localhost/login
+Content-Type: application/json
+
+{
+"username": "admin",
+"password": "123456"
+}
+
+###
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET http://localhost/books
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicGFzc3dvcmQiOiIkMmIkMTAkTElUSk9HQlJyeG9FbUhaTURFdEd6ZTFUNlJ4aHJkZkUzN0lYcFBHNGRFOW5vNE4vaktrR0MiLCJpYXQiOjE2OTkyODIzMTR9.kJFQkc6B_CfPCpbbcdQX75Tvr-XYlI5HjssDtc1dyjU
+
+###
